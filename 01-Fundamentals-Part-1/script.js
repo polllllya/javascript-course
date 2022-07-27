@@ -133,4 +133,4 @@ if (bmiMark > bmiJohn) {
 console.log('19' - '13' + '17'); //617 - String
 console.log('19' - '13' + 17); //23 - Number
 console.log('123' < 57); //false
-console.log(5 + 6 + '4' + 9 - 4 - 2); //114(String) + 3(Nymber) = 1143(Number)*/
+console.log(5 + 6 + '4' + 9 - 4 - 2); //114(String) + 3(Number) = 1143(Number)*/
