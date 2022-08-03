@@ -134,3 +134,56 @@ console.log('19' - '13' + '17'); //617 - String
 console.log('19' - '13' + 17); //23 - Number
 console.log('123' < 57); //false
 console.log(5 + 6 + '4' + 9 - 4 - 2); //114(String) + 3(Number) = 1143(Number)*/
+
+
+
+//EQUALITY OPERATORS: == VS ===
+/*const numNeighbours = prompt('How many neightbour countries does yor country have?');
+
+if (numNeighbours === 1) {
+    console.log('Only 1 border');
+} else if (numNeighbours > 1) {
+    console.log('More than 1 border');
+} else {
+    console.log('No borders');
+}*/
+
+
+
+//LOGICAL OPERATORS
+/*const country = 'Poland';
+const population = 30, language = 'polish', isIsland = false;
+if (population < 50 && language === 'english' && !isIsland) {
+    console.log(`You should live in ${country}`);
+} else {
+    console.log(`${country} does not meet your criteria`);
+}*/
+
+
+
+//Coding Challenge #3
+//There are two gymnastics teams, Dolphins and Koalas. They compete against each other 3 times. The winner with the highest average score wins a trophy!
+//Your tasks:
+//1. Calculate the average score for each team,using the test data below
+//2. Compare the team's average scores to determine the winner of the competition,
+//and print it to the console.Don't forget that there can be a draw, so test for that
+//as well(draw means they have the same average score)
+//3. Bonus1: Include are quirement for a minimum score of 100. With this rule, a
+//team only wins if it has a higher score than the other team, and the same time a score of at least 100 points.Hint: Use a logical operator to test for minimum score, as well as multiple else -if blocks 
+//4. Bonus2: Minimum score also applies to a draw! So a draw only happens when both teams have the same score and both have a score greater or equal 100 points.Otherwise, no team wins the trophy
+//Test data:
+//Dolphins score 96, 108 and 89. Koalas score 88, 91 and 110
+
+/*const avgScoreD = (96 + 108 + 89) / 3;
+const avgScoreK = (88 + 91 + 110) / 3;
+
+if (avgScoreD > avgScoreK && avgScoreD >= 100) {
+    console.log('The Dolphin team won');
+} else if (avgScoreD < avgScoreK && avgScoreK >= 100) {
+    console.log('The Koalas team won');
+} else if (avgScoreD === avgScoreK && avgScoreD >= 100) {
+    console.log('Draw');
+} else {
+    console.log('No team wins the trophy');
+}*/
+
