@@ -7,7 +7,6 @@ function describeCountry(country, population, capitalCity) {
     let result = `${country} has ${population} million people and its capital city is ${capitalCity}.`;
     return result;
 }
-
 console.log(describeCountry('Poland', 37, 'Warsaw'));
 
 
@@ -20,7 +19,6 @@ const country = 'Poland';
 function percentageOfWorld1(population) {
     return population * 100 / 7900;
 }
-
 console.log(`FUNCTION DECLARATION: ${country} has ${population} million people, so it's ${percentageOfWorld1(population)}% of the world population.`);
 
 //function expression
@@ -33,5 +31,4 @@ console.log(`FUNCTION EXPRESSION: ${country} has ${population} million people, s
 
 //ARROW FUNCTION
 const percentageOfWorld3 = populations => population * 100 / 7900;
-
 console.log(`FUNCTION ARROW: ${country} has ${population} million people, so it's ${percentageOfWorld3(population)}% of the world population.`);
