@@ -70,3 +70,13 @@ const checkWinner = (avgDolhins, avgKoalas) => {
 console.log(checkWinner(avgDolhins, avgKoalas));
 
 
+
+//INTRODUCTION TO ARRAYS
+const populations = [33, 14, 12];
+console.log(population.length == 4);
+
+const precentage = [percentageOfWorld1(populations[0]),
+percentageOfWorld1(populations[1]),
+percentageOfWorld1(populations[2])];
+
+console.log(precentage);
