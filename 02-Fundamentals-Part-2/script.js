@@ -124,3 +124,25 @@ const bills = [125, 555, 44];
 const tips = [calcTip(bills[0]), calcTip(bills[1]), calcTip(bills[2])];
 
 console.log(tips);
+
+
+
+//INTRODUCTION TO OBJECTS
+const myCountry = {
+    country: 'Poland',
+    capital: 'Warsaw',
+    language: 'polish',
+    population: 37,
+    neighbours: ['Germany', 'Czech']
+};
+
+
+
+//DOT VS. BRACKET NOTATION
+console.log(`${myCountry.country} has ${myCountry.population} million finnish-speaking people, ${myCountry.neighbours.length} neighbourng countries and a capital called ${myCountry.capital}`);
+
+myCountry.population += 2;
+console.log(myCountry.population);
+
+myCountry['population'] -= 2;
+console.log(myCountry.population);
