@@ -211,3 +211,41 @@ if (mark.BMI < jhon.BMI) {
 } else {
     console.log(`${mark.name}'s BMI (${mark.BMI}) is higher than ${jhon.name} (${jhon.BMI})!`);
 }
+
+
+//LOOPING ARRAYS, BRAEKING AND CONTINUING
+/*const populations = [33, 14, 12];
+console.log(populations);
+
+for (let i = 0; i < populations.length; i++) {
+    populations[i] = percentageOfWorld1(populations[i]);
+}
+console.log(populations);*/
+
+
+
+//LOOPING BACKWARDS AND LOOPS IN LOOPS
+const listOfNeighbours = [
+    ['Canada', 'Mexico'],
+    ['Spain'],
+    ['Norway', 'Sweden', 'Russia']
+];
+for (let i = 0; i < listOfNeighbours.length; i++) {
+    for (let j = 0; j < listOfNeighbours[i].length; j++) {
+        console.log(`Neighbour: ${listOfNeighbours[i][j]}`);
+    }
+}
+
+
+
+//THE WHILE LOOP
+const populations = [33, 14, 12];
+console.log(populations);
+
+let i = 0;
+while (i < populations.length) {
+    populations[i] = percentageOfWorld1(populations[i]);
+    i++;
+}
+
+console.log(populations);
